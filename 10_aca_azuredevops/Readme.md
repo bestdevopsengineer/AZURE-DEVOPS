@@ -8,7 +8,7 @@ Create a Container Apps
 
 ```powershell
 $RESOURCE_GROUP="rg-containerapps-azure-pipelines"
-$LOCATION="westeurope"
+$LOCATION="EastUS2"
 $CONTAINERAPPS_ENVIRONMENT="aca-environment"
 $CONTAINERAPPS_APP="album-backend-api"
 
