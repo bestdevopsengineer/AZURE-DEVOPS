@@ -69,10 +69,10 @@ resources:
 - repo: self
 
 variables:  
-  IMAGE_NAME: houssemdocker/album-backend-api
+  IMAGE_NAME: ovdi/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
-  RESOURCE_GROUP: rg-containerapps-azure-pipelines
+  RESOURCE_GROUP: rg-containerapps-azure-pipelines1
   TAG: '$(Build.BuildId)'
 
 stages:
