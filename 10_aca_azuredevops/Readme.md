@@ -7,7 +7,7 @@ A lab for showing how to create CI/CD pipelines using Azure DevOps to deploy an 
 Create a Container Apps
 
 ```powershell
-$RESOURCE_GROUP="rg-containerapps-azure-pipelines"
+$RESOURCE_GROUP="rg-containerapps-azure-pipelines1"
 $LOCATION="EastUS2"
 $CONTAINERAPPS_ENVIRONMENT="aca-environment"
 $CONTAINERAPPS_APP="album-backend-api"
